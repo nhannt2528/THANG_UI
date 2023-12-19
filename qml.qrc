@@ -1,8 +1,82 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
+        <file>background/CustomBackground.qml</file>
+        <file>images/1.4_needle.png</file>
+        <file>images/1.4_needle2.png</file>
+        <file>images/2.1_needle.png</file>
+        <file>images/2.1_needle1.png</file>
+        <file>images/2.2_needle3.png</file>
+        <file>images/2.2_needle4.png</file>
+        <file>images/2.2_needle6.png</file>
+        <file>images/a1.png</file>
+        <file>images/a2.png</file>
+        <file>images/a3.png</file>
+        <file>images/a4.png</file>
+        <file>images/a5.png</file>
+        <file>images/a6.png</file>
+        <file>images/a7.png</file>
+        <file>images/a8.png</file>
+        <file>images/adf.png</file>
+        <file>images/Airspeed and mach.png</file>
+        <file>images/alt_v1.png</file>
+        <file>images/altimeter10000d.png</file>
+        <file>images/Altimetter.png</file>
+        <file>images/Analog distance.png</file>
+        <file>images/apt_knob.png</file>
+        <file>images/apt_knob1.png</file>
+        <file>images/Attitude.png</file>
+        <file>images/Cabin pressurization and pressure differential.png</file>
+        <file>images/clock&amp;timer.png</file>
+        <file>images/Engine vibration metter.png</file>
+        <file>images/Exhaust gas.png</file>
+        <file>images/Fuel pressure and Oil pressure.png</file>
+        <file>images/Fuel.png</file>
+        <file>images/Garmin omni-bearing selector.png</file>
+        <file>images/h1.png</file>
+        <file>images/h2.png</file>
+        <file>images/Horizontal situation indicator.png</file>
+        <file>images/hour.png</file>
+        <file>images/knob.png</file>
+        <file>images/knob02.png</file>
+        <file>images/l1.png</file>
+        <file>images/l2.png</file>
+        <file>images/l3.png</file>
+        <file>images/L39_Kim_02.png</file>
+        <file>images/l4.png</file>
+        <file>images/l6.png</file>
+        <file>images/l7.png</file>
+        <file>images/mach.png</file>
+        <file>images/mach1.png</file>
+        <file>images/min.png</file>
+        <file>images/nav_from.png</file>
+        <file>images/nav_gs.png</file>
+        <file>images/nav_mode.png</file>
+        <file>images/panel39.png</file>
+        <file>images/Radar Altimeter.png</file>
+        <file>images/rpm.png</file>
+        <file>images/sec.png</file>
+        <file>images/Thumbs.db</file>
+        <file>images/turn_indicator_ball.png</file>
+        <file>images/v1.png</file>
+        <file>images/v11.png</file>
+        <file>images/v2.png</file>
+        <file>images/v3.png</file>
+        <file>images/Vertical speed and slip indicators.png</file>
+        <file>images/Vertical speed and slip indicators_c.png</file>
+        <file>images/Volt and Amp metters.png</file>
+        <file>images/zulu_hour.png</file>
+        <file>images/zulu_min.png</file>
+        <file>images/zulu_sec.png</file>
+        <file>gause/GyroCompassGause.qml</file>
+        <file>images/Kim la ban.png</file>
+        <file>images/Kim_la_ban_2.png</file>
+        <file>images/la ban.png</file>
     </qresource>
     <qresource prefix="/image">
         <file>2.png</file>
+    </qresource>
+    <qresource prefix="/background">
+        <file>images/la ban.png</file>
     </qresource>
 </RCC>
