@@ -32,3 +32,4 @@ void MPU6050Serial::begin()
         qDebug() << "Failed to connect to" << m_serial->portName();
     }
 }
+

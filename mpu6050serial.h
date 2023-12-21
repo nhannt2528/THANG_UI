@@ -15,7 +15,7 @@ private:
 public:
     explicit MPU6050Serial(QObject *parent = nullptr);
     void begin();
-
+    void readFromModbus();
 signals:
 
 };
