@@ -6,18 +6,28 @@
 #include <QSerialPortInfo>
 #include <QDebug>
 #include <QTimer>
+#include <ModbusRtuMaster/modbusrtumaster.h>
 class MPU6050Serial : public QObject
 {
     Q_OBJECT
 private:
-    QSerialPort *m_serial;
-
+    ModbusRtuMaster my_modbus;
+    QTimer *timer;
+    Q_PROPERTY(int angleZ READ getAngleZ WRITE setAngleZ NOTIFY angleZChanged FINAL)
+private slots:
+    void updateModbus();
 public:
     explicit MPU6050Serial(QObject *parent = nullptr);
     void begin();
     void readFromModbus();
+    int angleZ=0;
+
+    int getAngleZ() const;
+    void setAngleZ(int newAngleZ);
+
 signals:
 
+    void angleZChanged();
 };
 
 #endif // MPU6050SERIAL_H

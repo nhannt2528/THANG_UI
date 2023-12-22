@@ -22,7 +22,7 @@ public:
     explicit ModbusRtuMaster(QObject *parent = nullptr);
     void connectDevice();
     void disconnectDevice();
-
+    void readHoldingRegister(uint8_t slaveID, uint16_t offset, uint8_t qty, uint16_t *data);
 
 signals:
 
