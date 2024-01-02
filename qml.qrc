@@ -56,7 +56,6 @@
         <file>images/Radar Altimeter.png</file>
         <file>images/rpm.png</file>
         <file>images/sec.png</file>
-        <file>images/Thumbs.db</file>
         <file>images/turn_indicator_ball.png</file>
         <file>images/v1.png</file>
         <file>images/v11.png</file>
@@ -72,6 +71,12 @@
         <file>images/Kim la ban.png</file>
         <file>images/Kim_la_ban_2.png</file>
         <file>images/la ban.png</file>
+        <file>images/g_1.png</file>
+        <file>images/G_2.png</file>
+        <file>images/G_3.png</file>
+        <file>gause/ADIGause.qml</file>
+        <file>images/ADI.png</file>
+        <file>images/ADI_2.png</file>
     </qresource>
     <qresource prefix="/image">
         <file>2.png</file>

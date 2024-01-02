@@ -19,7 +19,7 @@ MPU6050Serial::MPU6050Serial(QObject *parent)
 {
     timer=new QTimer(this);
     connect(timer,&QTimer::timeout,this,&MPU6050Serial::updateModbus);
-    timer->setInterval(100);
+    timer->setInterval(10);
 }
 void MPU6050Serial::begin()
 {

@@ -19,6 +19,8 @@ Item{
             idAngle.setAngle=my_mpu.angleZ
         }
     }
+
+
         Timer{
             id:m_timer
             interval: 500
@@ -57,4 +59,5 @@ Item{
             source: "qrc:/images/Kim la ban.png"
 
         }
+
     }
